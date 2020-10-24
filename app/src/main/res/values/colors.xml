@@ -5,4 +5,7 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="colorTest">#C40E01</color>
     <color name="colorBar">#FF0000</color>
+    <color name="colorBarFinal" />
+    <color name="colorBarCorrect">#D80027</color>
+    <color name="colorUp">#AF0222</color>
 </resources>
