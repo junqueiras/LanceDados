@@ -3,9 +3,10 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
-    <color name="colorTest">#C40E01</color>
-    <color name="colorBar">#FF0000</color>
-    <color name="colorBarFinal" />
+    <color name="colorBarCorrectLight">#FF3F80</color>
     <color name="colorBarCorrect">#D80027</color>
+    <color name="colorUpLight">#C63969</color>
     <color name="colorUp">#AF0222</color>
+    <color name="colorBackground">#F8D1CF</color>
+
 </resources>

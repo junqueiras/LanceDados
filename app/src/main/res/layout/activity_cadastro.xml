@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8D1CF"
+    android:background="@color/colorBackground"
     tools:context=".CadastroActivity">
 
     <EditText
-        android:id="@+id/editNome"
+        android:id="@+id/nameInputText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/cadastro_nome"
         android:inputType="textPersonName"
-        android:text="@string/cadastro_nome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.562"
@@ -22,7 +22,7 @@
         app:layout_constraintVertical_bias="0.406" />
 
     <Button
-        android:id="@+id/buttonJogar"
+        android:id="@+id/playButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorBarCorrect"
@@ -33,6 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editNome"
+        app:layout_constraintTop_toBottomOf="@+id/nameInputText"
         app:layout_constraintVertical_bias="0.137" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

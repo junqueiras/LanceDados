@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
             dado1.setImageResource(lancarDado())
             dado2.setImageResource(lancarDado())
         }
+
+        val playerName = getIntent().getStringExtra("playerName")
+        val playerNameText = findViewById<TextView>(R.id.playerNameText)
+        playerNameText.text = "Olá, $playerName"
     }
 
     fun lancarDado(): Int {
